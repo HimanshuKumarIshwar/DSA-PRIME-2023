@@ -61,7 +61,7 @@ public class MyCircularQueue {
                 System.out.print(a[i]+" ");
             }
         }else{
-            for(int i=0; i<size; i++){
+            for(int i=front; i<size; i++){
                 System.out.print(a[i]+" ");
             }
             for(int i=0; i<=rear; i++){
