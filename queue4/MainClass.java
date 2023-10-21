@@ -4,6 +4,7 @@ public class MainClass {
    public static void main(String[] args) {
 int []a ={12,-1,-7,8,-15,30,16,28};
 int k =3;
+ int [] ans2 = slidingWindowMax(a,k);
 int []ans =firstNegativeEveryWindow(a,k);
 for(int e: ans){
     System.out.print(e+" ");
@@ -11,6 +12,11 @@ for(int e: ans){
 
 
    }
+
+//   static int findLastElement(int n, int k){
+//       ArrayDeque<Integer> dq =new ArrayDeque<>();
+//       for(int i=1; i<=n; i++);
+//   }
     static int[] firstNegativeEveryWindow(int []a, int k){
         int n =a.length;
         ArrayDeque<Integer> dq =new ArrayDeque<>();
@@ -56,7 +62,7 @@ for(int e: ans){
 
 
 
-    static int[] slindingWindowMax(int []a, int k){
+    static int[] slidingWindowMax(int []a, int k){
         int n =a.length;
         ArrayDeque<Integer> dq =new ArrayDeque<>();
         int []ans =new int[n-k+1];
