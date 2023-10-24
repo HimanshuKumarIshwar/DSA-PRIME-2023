@@ -8,6 +8,12 @@ public class MainClass {
 //        System.out.println(a&b);
 //        System.out.println(a^b);
 
+
+
+//        int a =-6;
+//        int b =~a;
+//        System.out.println(b);
+
 //        byte a =5;
 //        byte b = (byte) ~a;
 //        System.out.println(b);
@@ -16,7 +22,7 @@ public class MainClass {
 //        int c =b+1;
 //        System.out.println(c);
 
-int a =2;
-        System.out.println(a<<3);
+//int a =2;
+//        System.out.println(a<<3);
     }
 }
