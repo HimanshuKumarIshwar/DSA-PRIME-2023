@@ -49,7 +49,7 @@ public class MainClass {
         while(l<=r){
             int mid =l+(r-l)/2;
             if(a[mid]==k)return mid;
-            if(a[l]==a[mid] && a[l] ==a[mid]){ // for duplicate element present
+            if(a[l]==a[mid] && a[r] ==a[mid]){ // for duplicate element present
                 l++;
                 r--;
             }
