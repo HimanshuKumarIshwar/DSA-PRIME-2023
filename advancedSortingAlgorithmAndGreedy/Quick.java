@@ -4,7 +4,7 @@ public class Quick {
     public static void main(String[] args) {
 int a[]={4,6,2,5,7,9,1,3};
 quickSort(a,0,a.length-1);
-        System.out.println("Hello");
+
 for(int e: a){
     System.out.print(e+" ");
 }
