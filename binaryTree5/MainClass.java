@@ -32,7 +32,7 @@ public class MainClass {
        // System.out.println(lca(root,7,4).data);
 
         System.out.println(distanceBetweenTwoNodes(root,4,7));
-        System.out.println(distanceBetweenTwoNodes2(root,4,7));2
+        System.out.println(distanceBetweenTwoNodes2(root,4,7));
 
     }
 static int distanceBetweenTwoNodes(Node root, int a,int b){

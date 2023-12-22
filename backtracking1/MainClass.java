@@ -45,6 +45,6 @@ public class MainClass {
     }
     static boolean isValid(int mat[][],int n,int m,int i,int j,boolean [][]visit){
 
-        return i < n && i >= 0 && j < n && j >= 0 && mat[i][j] == 1 && !visit[i][j];
+        return i < n && i >= 0 && j < m && j >= 0 && mat[i][j] == 1 && !visit[i][j];
     }
 }
