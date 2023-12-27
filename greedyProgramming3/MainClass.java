@@ -15,6 +15,8 @@ public class MainClass {
         Integer v[] ={2,1,3,1,4};
         System.out.println(minCostToCurtBoard(h,v));
 
+       
+
     }
 
     static int minCostToCurtBoard(Integer  []h, Integer []v){
