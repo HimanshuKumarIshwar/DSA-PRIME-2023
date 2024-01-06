@@ -56,17 +56,17 @@ public class MainClass {
 
           q.add(src);
           visit[src] = true;
-          prec[src] =-1;
-        dist[src] =0;
+          prec[src] = -1;
+        dist[src] = 0;
           while(!q.isEmpty()){
                int cur =q.poll();
               System.out.println(cur);
               for(int neighbours: graph.get(cur)){
                   if(!visit[neighbours]){
                       q.add(neighbours);
-                      visit[neighbours] =true;
-                      dist[neighbours] =dist[cur]+1;
-                      prec[neighbours] =cur;
+                      visit[neighbours] = true;
+                      dist[neighbours] = dist[cur]+1;
+                      prec[neighbours] = cur;
                   }
               }
           }
